@@ -8,14 +8,17 @@ body {
     color: #f1f1f1;
     font-family: "Inter", sans-serif;
     height: 100vh;
+    overflow-x: hidden;
+   
 }
 
 h2 {
     text-align: left;
     font-size: 30px;
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
+
                                     /* nav bar */
 
 .list-nav {
@@ -28,14 +31,12 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-  
-  
+    z-index: 3;
 }
 
 .list-nav img {
     width: auto;
-    height: 70px;
-    
+    height: 70px;   
 }
 
 .item-nav {
@@ -59,57 +60,91 @@ h2 {
 
                                             /* carousel */
 
+.push-down {
+    height: 90vh;
+}
+
 .carousel {
-    width: 99%;
-    max-width: 1900px;
+    width: 300%;
     min-width: 280px;
     height: auto;
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
     margin: 25px auto 20px;
+    position: relative;
+    z-index: 1;    
 }
+
+.carousel .deadpool {
+    position: absolute;
+    width: 33%;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-name: slidein;
+    z-index: 1;   
+}
+
+.carousel .alien {
+    translate: 150%;
+    position: absolute;
+    width: 33%;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    animation-duration:12s;
+    animation-name: slidein;
+    z-index: 1;
+}
+.carousel .blink-twice {
+    translate: 150%;
+    position: absolute;
+    width: 33%;
+    animation-iteration-count: infinite;
+    animation-delay: 8s;
+    animation-duration: 12s;
+    animation-name: slidein;
+    z-index: 1;
+}
+
+
+@keyframes slidein {
+
+    0% {
+      translate: 150vw;
+      z-index: 100;
+     
+    }
+  
+    30% {
+        translate: 0 0;
+        z-index: 1;
+      }
+       
+    100% {
+        translate: 0 0;
+        z-index: 0;
+      }
+}
+
 .carousel img {
     width: 100%;
-    height: auto;
+    height: 800px;
     border-radius: 5px;
 }
 .carousel h3 {
     position:absolute;
     font-size:70px;
     color:white;
-    right:12%;
-    bottom: 50%;
+    right:5%;
+    bottom: 30%;
     font-weight: bold;
     font-family: "Inter", sans-serif;
-
 }
 .carousel p {
     position:absolute;
     font-size:40px;
     color:white;
     text-shadow: 2px 2px #000000;
-    right:12%;
-    bottom: 45%;
-    font-weight:100;
-    font-family: "Inter", sans-serif;
-}
-
-.carousel h3 {
-    position:absolute;
-    font-size:70px;
-    color:white;
-    right:12%;
-    bottom: 20%;
-    font-weight: bold;
-    font-family: "Inter", sans-serif;
-
-}
-.carousel p {
-    position:absolute;
-    font-size:40px;
-    color:white;
-    text-shadow: 2px 2px #000000;
-    right:12%;
-    bottom: 15%;
+    right:5%;
+    bottom: 25%;
     font-weight:100;
     font-family: "Inter", sans-serif;
 }
@@ -124,6 +159,7 @@ h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 
 .item {
@@ -171,3 +207,4 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
