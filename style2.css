@@ -12,8 +12,9 @@ body {
 
 h1 {
     text-align: left;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 130px;
+    margin-top: 20px;
 }
                                     /* nav bar */
 
@@ -27,6 +28,7 @@ h1 {
     justify-content: space-evenly;
     align-items: center;
   
+  
 }
 
 .list-nav img {
@@ -37,7 +39,12 @@ h1 {
 
 .item-nav {
     font-size: 15px;
-    margin: 0 10px;
+    margin: 0 10px;  
+}
+
+.list-nav a {
+    color: #f1f1f1;
+    text-decoration: none;
 }
 
 .list-nav button {
@@ -47,6 +54,8 @@ h1 {
     border: solid 1px #f1f1f1;
     border-radius: 7px;
 }
+
+
                                             /* carousel */
 
 .carousel {
@@ -55,16 +64,12 @@ h1 {
     min-width: 280px;
     height: auto;
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-    margin: 5px auto 20px;
+    margin: 15px auto 20px;
 }
 .carousel img {
     width: 100%;
     height: auto;
     border-radius: 5px;
-}
-.carousel h2 p {
-    text-align: left;
- 
 }
 
                                             /* Images Gallery Container */
@@ -73,7 +78,7 @@ h1 {
 .image-container-gallery {
     width: 100%;
     max-width: 1900px;
-    margin: 0 auto 0;
+    margin: 10px auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -102,13 +107,13 @@ h1 {
 }
 
 .item:hover img {
-        opacity: 0;
-       
+        opacity: 0;   
       
 }
 .item:hover {
     background:#1A83C6;
     color: #f1f1f1;
+    opacity: 85%;
 }
 
 .item:hover a {
