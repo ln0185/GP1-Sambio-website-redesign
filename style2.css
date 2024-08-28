@@ -72,6 +72,26 @@ h2 {
     height: auto;
     border-radius: 5px;
 }
+.carousel h3 {
+    position:absolute;
+    font-size:70px;
+    color:white;
+    right:12%;
+    bottom: 50%;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+
+}
+.carousel p {
+    position:absolute;
+    font-size:40px;
+    color:white;
+    text-shadow: 2px 2px #000000;
+    right:12%;
+    bottom: 45%;
+    font-weight:100;
+    font-family: "Inter", sans-serif;
+}
 
 .carousel h3 {
     position:absolute;
