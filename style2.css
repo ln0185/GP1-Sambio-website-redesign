@@ -14,7 +14,7 @@ h1 {
     text-align: left;
     font-size: 30px;
     margin-left: 130px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
                                     /* nav bar */
 
@@ -51,7 +51,7 @@ h1 {
     background-color: #1A83C6;
     color: #f1f1f1;
     padding: 10px;
-    border: solid 1px #f1f1f1;
+    border: none;
     border-radius: 7px;
 }
 
