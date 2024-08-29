@@ -227,18 +227,20 @@ h2 {
     height: 80px;
     background-color: #000000;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
     z-index: 1;
 
 }
-.navbar-mobile img {
+.mobile-logo {
     width: auto;
     height: 60px; 
-
 }
 
 .hamburger {
     color: #1A83C6;
+    width: 50px;
+    height: 50px;
 }
                 
                         /* mobile banner */
@@ -277,7 +279,7 @@ h2 {
     /*from 830px*/
     
     .navbar-mobile {
-        display: none;
+    display: none;
     }
    
     .mobile-banner {
