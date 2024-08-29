@@ -41,7 +41,6 @@ h2 {
 .item {
     overflow: hidden;
     flex-shrink: 0;
-    margin: auto;
 }
 .item a {
     display: block;
