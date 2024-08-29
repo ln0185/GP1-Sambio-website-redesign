@@ -58,6 +58,7 @@ h2 {
 }
 
 
+
                                             /* carousel */
 
 .push-down {
@@ -126,31 +127,28 @@ h2 {
 
 .carousel img {
     width: 100%;
+    flex-shrink: 0;
     height: 800px;
     border-radius: 10px;
 }
 .carousel h3 {
     position:absolute;
     font-size:70px;
-    color:white;
     right:5%;
     bottom: 30%;
     font-weight: bold;
-    font-family: "Inter", sans-serif;
 }
 .carousel p {
     position:absolute;
     font-size:40px;
-    color:white;
     text-shadow: 2px 2px #000000;
     right:5%;
-    bottom: 25%;
+    bottom:25%;
     font-weight:100;
-    font-family: "Inter", sans-serif;
 }
-.mobile-banner {
-    display: none;
-}
+
+
+
                                             /* Images Gallery Container */
 
 
@@ -177,9 +175,6 @@ h2 {
     align-items: center;
 }
 
-
-
-
 .item a {
     color: #f1f1f1;
     text-align: center;
@@ -188,7 +183,7 @@ h2 {
     text-decoration: none;
     opacity: 0;
     position: absolute;
-      
+
 }
 .item img {
     width: 100%;
@@ -208,27 +203,86 @@ h2 {
     opacity: 1;
 }
 
-
-@media (max-width: 800px){
-    /*entre 0 et 800px*/
+                                            /*  media queries */
+@media (max-width: 830px){
+    /*between 0 and 830px*/
     
-    nav {
+  nav {
     visibility: hidden;
     }
 
-    .carousel {
+  .carousel {
     display: none;
   }
-  .mobile-banner {
-    display: visible;
-  }
+  .push-down {
+    display: none;
 }
-@media (min-width: 800px){
-    /*entre 800px et l'infini*/
-    h1 {
-        font-size: 20px;
-        color: violet
+}
+                        /* mobile nav bar */
+
+.navbar-mobile {
+    position: fixed;
+    font: bold;
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+
+}
+.navbar-mobile img {
+    width: auto;
+    height: 60px; 
+
+}
+
+.hamburger {
+    color: #1A83C6;
+}
+                
+                        /* mobile banner */
+.mobile-banner {
+    position: relative;
+    margin-top: 10px;
+    max-width: 830px;
+    min-width: 300px;
+    height: auto;
+    display: visible;
+}   
+.mobile-banner img {
+    width: 100%;
+    height: auto;
+}   
+
+.mobile-banner h3 {
+    position: absolute;
+    font-size:25px;
+    right:5%;
+    bottom: 20%;
+    font-weight: bold;
+   
+}
+
+.mobile-banner p {
+    position:absolute;
+    font-size:20px;
+    text-shadow: 2px 2px #000000;
+    right:5%;
+    bottom:12%;
+    font-weight:300;
+}
+
+@media (min-width: 830px){
+    /*from 830px*/
+    
+    .navbar-mobile {
+        display: none;
     }
+   
+    .mobile-banner {
+    display: none;
+   }
 }
                                                           /* footer */
 footer {
