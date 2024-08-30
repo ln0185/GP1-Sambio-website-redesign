@@ -61,13 +61,9 @@ h2 {
 
                                             /* carousel */
 
-.push-down {
-    height: 100vh;
-}
-
 .carousel {
     width: 300%;
-    height: auto;
+    height: 100vh;
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
     margin: 15px 15px 20px 10px;
     position: relative;
@@ -128,7 +124,7 @@ h2 {
 .carousel img {
     width: 100%;
     flex-shrink: 0;
-    height: 800px;
+    height: 100vh;
     border-radius: 10px;
 }
 .carousel h3 {
@@ -154,7 +150,6 @@ h2 {
 
 .image-container-gallery {
     width: 100%;
-    max-width: 1900px;
     margin: 10px auto;
     display: flex;
     justify-content: center;
