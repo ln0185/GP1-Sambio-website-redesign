@@ -55,6 +55,7 @@ h2 {
     font-size: large;
     opacity: 0;
     position: absolute;
+    z-index: 3;
   }
 .item img {
     height: auto;
