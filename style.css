@@ -53,7 +53,7 @@ h2 {
     text-decoration: none;
     font-weight: bold;
     font-size: large;
-    opacity: 0;
+    display: none;
     position: absolute;
     z-index: 3;
   }
@@ -62,7 +62,7 @@ h2 {
   
 }
 .item:hover img {
-    opacity: 0;
+    display: none;
 }
 .item:hover {
     background: #1A83C6;
@@ -70,7 +70,7 @@ h2 {
     border-radius: 30px;
 }
 .item:hover a {
-    opacity: 1;
+    display: block;
     color: #F1F1F1;
 }
 .button1 {

@@ -149,6 +149,7 @@ h2 {
 
 .image-container-gallery {
     width: 100%;
+    height: 100vh;
     margin: 10px auto;
     display: flex;
     justify-content: center;
@@ -175,7 +176,7 @@ h2 {
     font-family: "Inter", sans-serif;
     font-weight: bold;
     text-decoration: none;
-    opacity: 0;
+    display: none;
     position: absolute;
 
 }
@@ -185,7 +186,7 @@ h2 {
 }
 
 .item:hover img {
-        opacity: 0;   
+    display:none;   
       
 }
 .item:hover {
@@ -194,7 +195,7 @@ h2 {
 }
 
 .item:hover a {
-    opacity: 1;
+    display:block;
 }
 
                                             /*  media queries */
@@ -202,7 +203,7 @@ h2 {
     /*between 0 and 830px*/
     
   nav {
-    visibility: hidden;
+    display: none;
     }
 
   .carousel {
