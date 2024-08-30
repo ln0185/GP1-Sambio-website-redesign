@@ -238,7 +238,6 @@ h2 {
                         /* mobile banner */
 .mobile-banner {
     position: relative;
-    margin-top: 10px;
     max-width: 830px;
     min-width: 300px;
     height: auto;
