@@ -11,15 +11,16 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .logo {
     width: 250px;
     height: 100px;
     padding-left: 4%;
 }
+
 .navbar p {
     font-size: 20px;
     font-weight: bold;
-
 }
 
 h1 {
@@ -27,6 +28,7 @@ h1 {
     font-size: 60px;
     line-height: 0.5;
 }
+
 h2 {
     padding-left: 10%;
 }
@@ -36,6 +38,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .item {
     width: 350px;
     height: 275px;
@@ -47,6 +50,7 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
 .item a {
     text-align: center;
     color: #F1F1F1;
@@ -56,27 +60,33 @@ h2 {
     display: none;
     position: absolute;
     z-index: 3;
-  }
+}
+
 .item img {
     height: auto;
   
 }
+
 .item:hover img {
     display: none;
 }
+
 .item:hover {
     background: #1A83C6;
     opacity: 85%;
     border-radius: 30px;
 }
+
 .item:hover a {
     display: block;
     color: #F1F1F1;
 }
+
 .button1 {
     display: flex;
     justify-content: center;
 }
+
 button {
     background-color: #1A83C6;
     color: #F1F1F1;

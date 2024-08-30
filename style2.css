@@ -3,13 +3,13 @@
     margin:0;
     padding: 0;
 }
+
 body {
     background: #000000;
     color: #f1f1f1;
     font-family: "Inter", sans-serif;
     height: 100vh;
-    overflow-x: hidden;
-   
+    overflow-x: hidden;   
 }
 
 h2 {
@@ -56,8 +56,6 @@ h2 {
     border-radius: 7px;
 }
 
-
-
                                             /* carousel */
 
 .carousel {
@@ -100,24 +98,22 @@ h2 {
     z-index: 1;
 }
 
-
 @keyframes slidein {
 
     0% {
-      translate: 150vw;
-      z-index: 100;
-     
+        translate: 150vw;
+        z-index: 100;
     }
   
     30% {
         translate: 0 0;
         z-index: 2;
-      }
+    }
        
     100% {
         translate: 0 0;
         z-index: 0;
-      }
+    }
 }
 
 .carousel img {
@@ -126,6 +122,7 @@ h2 {
     height: 100vh;
     border-radius: 10px;
 }
+
 .carousel h3 {
     position:absolute;
     font-size:70px;
@@ -133,6 +130,7 @@ h2 {
     bottom: 30%;
     font-weight: bold;
 }
+
 .carousel p {
     position:absolute;
     font-size:40px;
@@ -142,9 +140,8 @@ h2 {
     font-weight:100;
 }
 
-
-
                                             /* Images Gallery Container */
+
 
 
 .image-container-gallery {
@@ -185,9 +182,10 @@ h2 {
 }
 
 .item:hover img {
-        opacity: 0;   
+    opacity: 0;   
       
 }
+
 .item:hover {
     background:#1A83C6;
     opacity: 85%;
@@ -201,16 +199,14 @@ h2 {
 @media (max-width: 830px){
     /*between 0 and 830px*/
     
-  nav {
+    nav {
     visibility: hidden;
     }
 
-  .carousel {
+    .carousel {
     display: none;
   }
-  .push-down {
-    display: none;
-}
+ 
 }
                         /* mobile nav bar */
 
@@ -226,6 +222,7 @@ h2 {
     z-index: 1;
 
 }
+
 .mobile-logo {
     width: auto;
     height: 60px; 
@@ -246,6 +243,7 @@ h2 {
     height: auto;
     display: visible;
 }   
+
 .mobile-banner img {
     margin-top: 30px;
     width: 100%;
