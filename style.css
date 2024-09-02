@@ -1,101 +1,100 @@
 body {
-    background-color: black;
-    font-family: "Inter", sans-serif;
-    color: #F1F1F1;
+  background-color: black;
+  font-family: "Inter", sans-serif;
+  color: #f1f1f1;
 }
-                /* nav bar */
+/* nav bar */
 .navbar {
-    height: auto;
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height: auto;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-    width: 250px;
-    height: 100px;
-    padding-left: 4%;
+  width: 250px;
+  height: 100px;
+  padding-left: 4%;
 }
 
 .navbar p {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 h1 {
-    text-align: center;
-    font-size: 60px;
-    line-height: 0.5;
+  text-align: center;
+  font-size: 60px;
+  line-height: 0.5;
 }
 
 h2 {
-    padding-left: 10%;
+  padding-left: 10%;
 }
-                    /*image container */
+/*image container */
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .item {
-    width: 350px;
-    height: 275px;
-    margin: 15px;
-    border-radius: 30px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 350px;
+  height: 275px;
+  margin: 15px;
+  border-radius: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .item a {
-    text-align: center;
-    color: #F1F1F1;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: large;
-    display: none;
-    position: absolute;
-    z-index: 3;
+  text-align: center;
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  display: none;
+  position: absolute;
+  z-index: 3;
 }
 
 .item img {
-    height: auto;
-  
+  height: auto;
 }
 
 .item:hover img {
-    display: none;
+  display: none;
 }
 
 .item:hover {
-    background: #1A83C6;
-    opacity: 85%;
-    border-radius: 30px;
+  background: #1a83c6;
+  opacity: 85%;
+  border-radius: 30px;
 }
 
 .item:hover a {
-    display: block;
-    color: #F1F1F1;
+  display: block;
+  color: #f1f1f1;
 }
 
 .button1 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 button {
-    background-color: #1A83C6;
-    color: #F1F1F1;
-    width: 300px;
-    padding: 10px;
-    border: none;
-    border-radius: 7px;
-    margin: 30px;
-    font-weight: bold;
-    border-color: #F1F1F1;
-    border-style: solid;
+  background-color: #1a83c6;
+  color: #f1f1f1;
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  margin: 30px;
+  font-weight: bold;
+  border-color: #f1f1f1;
+  border-style: solid;
 }
